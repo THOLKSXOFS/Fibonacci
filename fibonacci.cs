@@ -6,9 +6,9 @@ namespace fibonacci
     {
         static void Main(string[] args)
         {
-            int i, limit, f1 = 0, f2 = 1, f3 = 0;
+            double i, limit, f1 = 0, f2 = 1, f3 = 0;
             Console.Write("Enter the Limit : ");
-            limit = int.Parse(Console.ReadLine());
+            limit = double.Parse(Console.ReadLine());
             Console.WriteLine(f1);
             Console.WriteLine(f2);
             for (i = 0; i <= limit; i++)
