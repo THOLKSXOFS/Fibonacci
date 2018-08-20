@@ -1,6 +1,6 @@
 using System;
  
-namespace fibonaci
+namespace fibonacci
 {
     class Program
     {
